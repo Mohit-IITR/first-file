@@ -7,11 +7,20 @@ STAGING AREA 		 |
    ||   //commit 	 | 
 GIT DIRECTORY  >_________|
 
+creating a SSH and GPG key check github setting
+
 IMPORTANT
 git init //to create a git repository at given location
 git status //shows commit and untracted files
 git add . //to add everything that is in that folder
-git commit -m "MESSAGE" //file name is message
+git commit -m "MESSAGE" //changes made are message
 git log  //to check commit changes
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+
+git remote add origin git@github.com:Mohit-IITR/first-file.git  //copied form github
+
+git push -u origin master //push changes to github
+
+git pull origin master  //pull changes from github
+ 

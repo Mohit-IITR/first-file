@@ -10,4 +10,8 @@ GIT DIRECTORY  >_________|
 IMPORTANT
 git init //to create a git repository at given location
 git status //shows commit and untracted files
-
+git add . //to add everything that is in that folder
+git commit -m "MESSAGE" //file name is message
+git log  //to check commit changes
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"

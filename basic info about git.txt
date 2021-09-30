@@ -1,0 +1,13 @@
+FIRST COMMAND- git status
+git --version
+
+WORKING DIRECTORY <_______
+   ||   //stage files    |
+STAGING AREA 		 | 
+   ||   //commit 	 | 
+GIT DIRECTORY  >_________|
+
+IMPORTANT
+git init //to create a git repository at given location
+git status //shows commit and untracted files
+

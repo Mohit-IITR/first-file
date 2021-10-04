@@ -23,4 +23,6 @@ git remote add origin git@github.com:Mohit-IITR/first-file.git  //copied form gi
 git push -u origin master //push changes to github
 
 git pull origin master  //pull changes from github
+
+git diff filename.extension //to check changes in that file
  

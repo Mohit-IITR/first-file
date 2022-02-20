@@ -12,7 +12,7 @@ creating a SSH and GPG key check github setting
 IMPORTANT
 git init //to create a git repository at given location
 git status //shows commit and untracted files
-git add . //to add everything that is in that folder
+git add .  //to add everything that is in that folder or write file name
 git commit -m "MESSAGE" //changes made are message
 git log  //to check commit changes
 git config --global user.email "you@example.com"
@@ -23,6 +23,16 @@ git remote add origin git@github.com:Mohit-IITR/first-file.git  //copied form gi
 git push -u origin master //push changes to github
 
 git pull origin master  //pull changes from github
-
+git clone (link)
 git diff filename.extension //to check changes in that file
+
+REVERSING
+if changes not commited = 
+git checkout --file name
+if changes are commited =
+git revert (commit id) //you can get commit id using git log
+:q to close next ui
+use git revert -n (commit id) //if you dont want to commit it automatically
+reset to some previous commit
+git reset --hard (commit id)
  

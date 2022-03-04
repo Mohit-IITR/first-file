@@ -35,4 +35,15 @@ git revert (commit id) //you can get commit id using git log
 use git revert -n (commit id) //if you dont want to commit it automatically
 reset to some previous commit
 git reset --hard (commit id)
- 
+
+BRANCHING
+git branch branchName  //create a branch
+git checkout branchName //use the branch
+git merge branchName //merge in master branch
+git push
+
+HEAD  - last commit
+git show head
+
+touch .gitignore  //create a file and add the files you want to ignore in it
+
